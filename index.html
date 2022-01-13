@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsham Mehrani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;1,200&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="hero">
+        <!-- Navigation -->
+        <div class=nav_container>
+            <nav class=sticky>
+                <!-- logo -->
+                <img src="images/logo.png" class="logo">
+                <!-- options -->
+                <ul>
+                    <li><a href="#">contact me</a></li>
+                    <li><a href="./content/ArshamMehrani_Resume.pdf" target="_blank">resume</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="hero_container">
+            <!-- Header div -->
+            <div class="header">
+                <h1>Arsham Mehrani</h1>
+
+                <div class="links">
+                    <a class= "resume_button" href="./content/ArshamMehrani_Resume.pdf" target="_blank">resume</a>
+                    
+                    <div class="socials_logos">
+                        <a href="https://www.linkedin.com/in/arsham-mehrani/" class="linked_in" target="_blank">
+                            <img class="socials" src="./images/linkedin_logo.png" alt="linkedin_logo">
+                        </a>
+    
+                        <a href="https://github.com/Arsham1024" class="github" target="_blank">
+                            <img class="socials" src="./images/github_logo.png" alt="github_logo">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- my images -->
+            <div class="me">
+                <img src="images/my_background.png" class="abstract">
+                <img src="images/Me_nobackground.png" class="me_img">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Projects div here -->
+    <div class="projects">
+        <div class=projects_headline>
+            <h1 class="projects_headline">Projects</h1>
+        </div>
+        <!-- each one must be a link -->
+        <div class="projects_container">
+            <a href="https://github.com/Arsham1024/Introduction_ML" target="_blank">
+                <div class="proj">
+                    <h3 class="proj_title">Machine Learning Algorithms</h3>
+                    <h5>Python</h5>
+                </div>
+            </a>
+
+            <a href="https://github.com/Arsham1024/Web_Search_Engines" target="_blank">
+                <div class="proj">
+                    <h3 class="proj_title">Web Search Engines</h3>
+                    <h5>Python</h5>
+                </div>
+            </a>
+
+            <a href="https://github.com/Arsham1024/Numerical_Methods" target="_blank">
+                <div class="proj">
+                    <h3 class="proj_title">Numerical Methods</h3>
+                    <h5>Java</h5>
+                </div>
+            </a>
+
+            <a href="https://github.com/Arsham1024/ML_Project" target="_blank">
+                <div class="proj">
+                    <h3 class="proj_title">Heart Disease Prediction</h3>
+                    <h5>Python</h5>
+                </div>
+            </a>
+
+            <a href="https://github.com/Arsham1024/music_recommender" target="_blank">
+                <div class="proj">
+                    <h3 class="proj_title">Music Recommender</h3>
+                    <h5>Python</h5>
+                </div>
+            </a>
+
+            <a href="https://github.com/Arsham1024/Discord_Bot" target="_blank">
+                <div class="proj">
+                    <h3 class="proj_title">Discord Bot</h3>
+                    <h5>Python</h5>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- Contact me div starts here -->
+    <div class="contact_me">
+        <!-- form -->
+        <div class="form">
+            <div class="contact_left">
+                <!-- actual form starts here -->
+                <form class=inputs action="https://formsubmit.co/amehrani@cpp.edu" method="POST">
+                    
+                    <div class="input-row">
+                        
+                        <!-- name and last name -->
+                        <div class="input-group">
+                            <label for="Name">
+                                <input type="text" placeholder="name" required>
+                            </label>
+                        </div>
+
+                        <!-- email -->
+                        <div class="input-group">
+                            <label for="email">
+                                <input type="email" placeholder="email" required>
+                            </label>
+                        </div>
+
+                        <!-- subject -->
+                        <div class="input-group">
+                            <label for="subject">
+                                <input type="text" placeholder="subject" required>
+                            </label>
+                        </div>
+                        
+                        <!-- message -->
+                        <div class="input-group">
+                            <label for="message">
+                                <textarea class= message rows="4" cols="50" placeholder="message" required></textarea>                            
+                            </label>
+                        </div>
+
+                        <button class="contactme_button" type="button">Send</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="contact_right">
+                <h1>Contact me</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
