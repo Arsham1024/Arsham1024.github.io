@@ -100,25 +100,21 @@
 
 
     <!-- Contact me div starts here -->
-    <div class="contact_me">
-        <!-- form -->
-        <div class="form">
-            <div class="contact_left" id="contact_me">
-                <!-- actual form starts here -->
-                <form action="https://formsubmit.co/amehrani@cpp.edu" method="POST">
-                    <input type="hidden" name="_next" value="https://arsham1024.github.io/thanks.html">
-                    <input type="text" name="name" placeholder="name" required>
-                    <input type="email" name="email" placeholder="email" required>
-                    <input type="text" name="subject" placeholder="subject" required>
-                    <textarea name="message" rows="4" cols="50" placeholder="message" required></textarea>
-                    <button type="submit">Send</button>
-                </form>
 
-            </div>
-            <div class="contact_right">
-                <h1>Contact me</h1>
-            </div>
+    <div class="contact_me" id="contact_me">
+        <h1>Contact me</h1>
+        <div class="contact_form">
+            <!-- actual form starts here -->
+            <form action="https://formsubmit.co/amehrani@cpp.edu" method="POST">
+                <input type="hidden" name="_next" value="https://arsham1024.github.io/thanks.html">
+                <input type="text" name="name" placeholder="name" required>
+                <input type="email" name="email" placeholder="email" required>
+                <input type="text" name="subject" placeholder="subject" required>
+                <textarea name="message" rows="4" cols="50" placeholder="message" required></textarea>
+                <button id="submit_button" type="submit">Send</button>
+            </form>
         </div>
     </div>
+
 </body>
 </html>

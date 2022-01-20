@@ -184,17 +184,10 @@ nav ul li a{
 }
 
 
-.contact_left{
+.contact_form{
+    position: absolute;
     flex-basis: 60%;
     padding: 40px 60px;
-}
-
-
-.contact_right{
-    flex-basis: 40%;
-    padding: 40px 60px;
-    background: darkgray;
-    border-radius: 10px;
 }
 
 .input-row{
@@ -225,6 +218,15 @@ input{
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+}
+
+#submit_button{
+    background: #000000;
+    color: white;
+    font-family: montserrat;
+    width: 120px;
+    height: 40px;
+    border-radius: 48px;
 }
 
 
