@@ -177,6 +177,8 @@ nav ul li a{
     width: 80%;
     height: auto;
     margin: 50px auto;
+    align-items: center;
+
 }
 
 .form{
